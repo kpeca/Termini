@@ -16,3 +16,10 @@ function zabava() {
   var zabava = document.getElementById("zabava");
   zabava.classList.toggle("active");
 }
+var brGolova = document.getElementById("brGolova");
+console.log(brGolova);
+var brojac = 0;
+setInterval(function () {
+  brojac++;
+  brGolova.innerHTML = brojac;
+}, 500);
