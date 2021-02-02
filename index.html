@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="container" id="blur">
+          <div class="content">
+              <a href="#" onclick="toggle()">Rezultati</a>
+              <a href="#" onclick="statistika()">Statistika</a>
+              <a href="#" onclick="zabava()">Glisini golovi</a>
+          </div>
+      </div>
+      <div id="popup">
+
+        <table >
+            <tr>
+              <th>Redni br</th>
+              <th>Datum termina</th>
+              <th>Ekipa Sogli</th>
+              <th>Ostatak Sveta</th>
+            </tr>
+            <tr>
+                <td>1</td>
+              <td>02.01</td>
+              <td style="background-color:red">14</td>
+              <td style="background-color:lightgreen">27</td>
+            </tr>
+            <tr>
+                <td>2</td>
+              <td>09.01</td>
+              <td style="background-color:lightgreen">23</td>
+              <td style="background-color:red">13</td>
+            </tr>
+            <tr>
+                <td>3</td>
+              <td>12.01</td>
+              <td style="background-color:red">12</td>
+              <td style="background-color:lightgreen">17</td>
+            </tr>
+            <tr>
+                <td>4</td>
+              <td>16.01</td>
+              <td style="background-color:lightgreen">17</td>
+              <td style="background-color:red">11</td>
+            </tr>
+            <tr>
+                <td>5</td>
+              <td>19.01</td>
+              <td style="background-color:lightblue">19</td>
+              <td style="background-color:lightblue">19</td>
+            </tr>
+            <tr>
+                <td>6</td>
+              <td>23.01</td>
+              <td style="background-color:lightgreen">18</td>
+              <td style="background-color:red">11</td>
+            </tr>
+            <tr>
+                <td>7</td>
+              <td>26.01</td>
+              <td style="background-color:lightgreen">16</td>
+              <td style="background-color:red">9</td>
+            </tr>
+            <tr>
+                <td>8</td>
+              <td>30.01</td>
+              <td style="background-color:red">17</td>
+              <td style="background-color:lightgreen">18</td>
+            </tr>
+          </table>
+           <a href="#" onclick="toggle()">Zatvori</a>
+          </div>
+        <div id="statistika">
+          <table >
+            <tr>
+              <th>.</th>
+              <th>Ekipa Sogli</th>
+              <th>Ostatak Sveta</th>
+            </tr>
+            <tr>
+                <td>Broj pobeda</td>
+              
+              <td style="background-color:lightgreen">4</td>
+              <td style="background-color:red">3</td>
+            </tr>
+            <tr>
+                <td>Gol razlika</td>
+              
+              <td style="background-color:lightgreen">136</td>
+              <td style="background-color:red">125</td>
+            </tr>
+            <tr>
+                <td>Faulovi</td>
+              
+              <td style="background-color:lightgreen">75</td>
+              <td style="background-color:red">5</td>
+            </tr>
+            <tr>
+                <td>Penali</td>
+              
+              <td style="background-color:lightgreen">2</td>
+              <td style="background-color:red">0</td>
+            </tr>
+            <tr>
+                <td>Žuti kartoni</td>
+            
+              <td style="background-color:lightblue">0</td>
+              <td style="background-color:lightblue">0</td>
+            </tr>
+            <tr>
+           
+          </table>
+           <a href="#" onclick="statistika()">Zatvori</a>
+        </div>
+        <div id="zabava">
+          <h1>Ne postoje, naravno</h1>
+          <a href="#" onclick="zabava()">Zatvori</a>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
